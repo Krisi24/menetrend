@@ -1,0 +1,89 @@
+
+
+
+
+
+Update DOLGOZOK set FIZETES =  310300 WHERE  SZEMELYISZAM LIKE '000001HU';
+
+Update DOLGOZOK set FIZETES =  300000 WHERE  SZEMELYISZAM LIKE '000011HU';
+Update DOLGOZOK set FIZETES =  250000 WHERE  SZEMELYISZAM LIKE '000012HU';
+
+Update DOLGOZOK set FIZETES =  470200 WHERE  SZEMELYISZAM LIKE '000021HU';
+Update DOLGOZOK set FIZETES =  450000 WHERE  SZEMELYISZAM LIKE '000022HU';
+Update DOLGOZOK set FIZETES =  470000 WHERE  SZEMELYISZAM LIKE '000022HU';
+
+-- 20fb
+UPDATE JEGYEK set AR = 100 where TIPUS LIKE 'felnőtt';
+UPDATE JEGYEK set AR = 50 where TIPUS LIKE 'diák';
+UPDATE JEGYEK set AR = 150 where TIPUS LIKE 'nem természetes személy';
+UPDATE JEGYEK set AR = 20 where TIPUS LIKE 'bicikli';
+UPDATE JEGYEK set AR = 10 where TIPUS LIKE 'nyugdíjas';
+
+
+--vásárlások
+BEGIN
+NEW_VASARLAS(83, 'felnőtt', 2, '000011HU');
+NEW_VASARLAS(83, 'felnőtt', 2, '000011HU');
+NEW_VASARLAS(83, 'felnőtt', 2, '000011HU');
+NEW_VASARLAS(83, 'felnőtt', 2, '000011HU');
+NEW_VASARLAS(83, 'felnőtt', 2, '000011HU');
+NEW_VASARLAS(83, 'diák', 2, '000011HU');
+NEW_VASARLAS(83, 'diák', 2, '000011HU');
+NEW_VASARLAS(83, 'diák', 2, '000011HU');
+NEW_VASARLAS(83, 'diák', 2, '000011HU');
+NEW_VASARLAS(83, 'diák', 2, '000011HU');
+NEW_VASARLAS(83, 'nyugdíjas', 4, '000011HU');
+NEW_VASARLAS(83, 'nyugdíjas', 1, '000011HU');
+
+NEW_VASARLAS(34, 'felnőtt', 2, '000012HU');
+NEW_VASARLAS(34, 'felnőtt', 2, '000012HU');
+NEW_VASARLAS(34, 'felnőtt', 2, '000012HU');
+NEW_VASARLAS(34, 'felnőtt', 2, '000012HU');
+NEW_VASARLAS(34, 'felnőtt', 2, '000012HU');
+NEW_VASARLAS(34, 'diák', 2, '000012HU');
+NEW_VASARLAS(34, 'diák', 2, '000012HU');
+NEW_VASARLAS(34, 'diák', 2, '000012HU');
+NEW_VASARLAS(34, 'diák', 2, '000012HU');
+NEW_VASARLAS(34, 'diák', 2, '000012HU');
+NEW_VASARLAS(34, 'nyugdíjas', 2, '000012HU');
+NEW_VASARLAS(34, 'nyugdíjas', 2, '000012HU');
+NEW_VASARLAS(34, 'nyugdíjas', 2, '000012HU');
+NEW_VASARLAS(34, 'nyugdíjas', 2, '000012HU');
+
+NEW_VASARLAS(84, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(84, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(84, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(84, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(84, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(84, 'diák', 2, '000013HU');
+NEW_VASARLAS(84, 'diák', 2, '000013HU');
+NEW_VASARLAS(84, 'diák', 2, '000013HU');
+NEW_VASARLAS(84, 'diák', 2, '000013HU');
+NEW_VASARLAS(84, 'diák', 2, '000013HU');
+
+NEW_VASARLAS(124, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(124, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(124, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(124, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(124, 'felnőtt', 2, '000013HU');
+NEW_VASARLAS(124, 'diák', 2, '000013HU');
+NEW_VASARLAS(124, 'diák', 2, '000013HU');
+NEW_VASARLAS(124, 'diák', 2, '000013HU');
+NEW_VASARLAS(124, 'diák', 2, '000013HU');
+NEW_VASARLAS(124, 'diák', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'nem természetes személy', 2, '000013HU');
+NEW_VASARLAS(124, 'bicikli', 1, '000013HU');
+NEW_VASARLAS(124, 'bicikli', 1, '000013HU');
+NEW_VASARLAS(124, 'bicikli', 1, '000013HU');
+NEW_VASARLAS(124, 'nyugdíjas', 2, '000013HU');
+NEW_VASARLAS(124, 'nyugdíjas', 1, '000013HU');
+NEW_VASARLAS(124, 'nyugdíjas', 1, '000013HU');
+NEW_VASARLAS(124, 'nyugdíjas', 2, '000013HU');
+NEW_VASARLAS(124, 'nyugdíjas', 4, '000013HU');
+END;
+-- 60 db
